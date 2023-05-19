@@ -47,16 +47,14 @@ namespace ArraysAndLists
             { 
                 if(evens.Contains(number)) 
                 {
-                    Console.WriteLine("even");
-                    Console.WriteLine(number);
+                    Console.WriteLine($"{number} is even");
                 }   
             }
             foreach (var number in odds) 
             { 
                 if (!evens.Contains(number)) 
                 {
-                    Console.WriteLine("odd");
-                    Console.WriteLine(number);
+                    Console.WriteLine($"{number} is odd");
                 }
             }
         }
